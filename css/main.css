@@ -9,7 +9,7 @@ body  {
 }
 
 #topo{
-    background-color: grey;
+    background-color: #252323;
     height: 67px;
     width: 100%;
     display: flex;
@@ -17,17 +17,38 @@ body  {
     justify-content: center;
     align-items: center;
 }
+#logo{
 
+    float: left;
+    color: gray;
+    font-size: 30px;
+    width: 680px;
+    padding-top: 14px;
+    padding-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .cabecalho{
    
     
     
     
-    background-color: green;
+    background-color:#252323;
     height: 67px;
     width: 960px;
   
 }
+.cabecalho-img{
+    float: right;
+    background-color: #252323;
+    height: 67px;
+    width: 250px;
+    
+}
+.rede-social{
+    margin-top: 18px;
+    margin-left:30px;
+ }
+
 #menu{
     background-color: rgb(179, 155, 155);
     height: 67px;

@@ -1,5 +1,5 @@
 body  {
-   /* background-color: lightcoral;*/
+    background-color: #FFFDD0;
     font-family: Arial,Verdana,sans-serif;
     font-size:12px;
     margin  : 0px;
@@ -7,7 +7,12 @@ body  {
     
 
 }
-
+p{
+    color :gray;
+    font-size: 15px;
+    text-align:left;
+    letter-spacing: 0.08em;
+}
 #topo{
     background-color: #252323;
     height: 67px;
@@ -112,7 +117,7 @@ ul.menu-principal li{
 }
 
 #corpo{
-    background-color: lightseagreen;
+   
     height: 1000px;
     width: 100%;
     display: flex;
@@ -122,7 +127,7 @@ ul.menu-principal li{
 }
 
 .corpo-principal{
-    background-color:lightsalmon;
+    
     height: 100%;
     width: 960px;
     
@@ -133,16 +138,82 @@ ul.menu-principal li{
     width: 300px;
     margin-top: 50px;
     margin-right: 30px;
-    background-color: crimson;
+    
+    
     height: 100%;
 }
+p.coluna1-top{
+    height: 200px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+p.coluna1-midle{
+    background-color: chartreuse;
+    height: 400px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+p.coluna1-foot{
+   background-color: deeppink;
+    height: 200px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+p.coluna2-top{
+    height: 200px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+p.coluna2-midle{
+    background-color: red;
+    height: 400px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+p.coluna2-foot{
+    background-color: darkgreen;
+    height: 200px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
+p.coluna3-top{
+    
+    height: 200px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+p.coluna3-midle{
+    background-color: yellow;
+    height: 400px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+p.coluna3-foot{
+    background-color: darkgoldenrod;
+    height: 200px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
 
 #coluna2{
     float: left;
     width: 300px;
     margin-top: 50px;
     margin-right: 30px;
-    background-color: blue;
+   
     height: 100%;
 }
 
@@ -151,7 +222,7 @@ ul.menu-principal li{
     width: 300px;
     margin-top: 50px;
     margin-right: 0px;
-    background-color: black;
+   
     height: 100%;
 }
 

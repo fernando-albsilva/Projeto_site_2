@@ -1,5 +1,5 @@
 body  {
-    background-color: #FFFDD0;
+    background-color:rgb(255, 255, 230);
     font-family: Arial,Verdana,sans-serif;
     font-size:12px;
     margin  : 0px;
@@ -131,6 +131,7 @@ ul.menu-principal li{
     height: 100%;
     width: 960px;
     
+    
 }
 #coluna1{
     
@@ -149,14 +150,16 @@ p.coluna1-top{
     margin-bottom: 50px;
 }
 p.coluna1-midle{
-    background-color: chartreuse;
+    
+    border-top:dotted gray 1px;
     height: 400px;
     width: 300px;
     margin-top: 0px;
     margin-bottom: 50px;
 }
 p.coluna1-foot{
-   background-color: deeppink;
+  
+   border-top:dotted gray 1px;
     height: 200px;
     width: 300px;
     margin-top: 0px;
@@ -170,14 +173,16 @@ p.coluna2-top{
     margin-bottom: 50px;
 }
 p.coluna2-midle{
-    background-color: red;
+    
+    border-top:dotted gray 1px;
     height: 400px;
     width: 300px;
     margin-top: 0px;
     margin-bottom: 50px;
 }
 p.coluna2-foot{
-    background-color: darkgreen;
+    
+    border-top:dotted gray 1px;
     height: 200px;
     width: 300px;
     margin-top: 0px;
@@ -193,14 +198,16 @@ p.coluna3-top{
     margin-bottom: 50px;
 }
 p.coluna3-midle{
-    background-color: yellow;
+    
+    border-top:dotted gray 1px;
     height: 400px;
     width: 300px;
     margin-top: 0px;
     margin-bottom: 50px;
 }
 p.coluna3-foot{
-    background-color: darkgoldenrod;
+    
+    border-top:dotted gray 1px;
     height: 200px;
     width: 300px;
     margin-top: 0px;
@@ -227,7 +234,9 @@ p.coluna3-foot{
 }
 
 #rodape{
-    background-color: red;
+   
+    border-top: 3px solid rgb(179, 155, 155);
+    
     height: 200px;
     width: 100%;
     display: flex;
@@ -237,10 +246,38 @@ p.coluna3-foot{
 }
 
 .rodape-principal{
-    background-color:blueviolet;
-    height: 100%;
+    
+    height: 200px;
     width: 960px;
+    font-family: Arial,Verdana,sans-serif;
+    color :gray;
+    font-size: 15px;
+    text-align:left;
+    letter-spacing: 0.08em;
+    
 }
+.coluna01-rodape{
+   
+   
+    float: left;
+    margin-right: 30px;
+    width: 300px;
+    height: 100%;
+}
+.coluna02-rodape{
+   
+    float: left;
+    margin-right: 30px;
+    width: 300px;
+    height: 100%;
+}
+.coluna03-rodape{
+    float: left;
+   
+    width: 300px;
+    height: 100%;
+}
+
 
 a{
     text-decoration: none;

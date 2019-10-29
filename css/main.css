@@ -1,5 +1,6 @@
 body  {
-    background-color:rgb(255, 255, 230);
+   /* background-color:rgb(255, 255, 230);*/
+   background:#FFFFFF;
     font-family: Arial,Verdana,sans-serif;
     font-size:12px;
     margin  : 0px;
@@ -109,6 +110,7 @@ ul.menu-principal li{
     margin-top: 24px;
 }
 .textoPesquisa{
+    background-color: #FFFFFF;
     float: left;
     margin-right: 7px;
 }
@@ -283,3 +285,45 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+.imagem-perfil{
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#corpo-pag-sobre{
+float: left;
+width: 960px;
+margin-top: 50px;
+
+}
+
+h2,h3{
+    color :gray;
+    font-family: Arial,Verdana,sans-serif;
+    text-align:left;
+    letter-spacing: 0.08em;
+}
+
+.form-contato-geral{
+    font-size: 14px;
+    color :gray;
+    font-family: Arial,Verdana,sans-serif;
+    text-align:left;
+    letter-spacing: 0.08em;
+}
+
+.email,.form-nome,.form-msg{
+    background-color: #FFFFFF;
+    
+}
+.coluna03-rodape a:hover{
+    color: #006bac;
+}
+.coluna03-rodape ul{
+    list-style-type: none;
+   margin:0;
+   padding: 0;
+
+}
+
